@@ -1,0 +1,9 @@
+{
+  "unique_gold_acl_papers": 425,
+  "pass_nli_threshold": 377,
+  "pass_nli_threshold_pct": 88.7,
+  "appear_in_core": 372,
+  "appear_in_core_pct": 87.5,
+  "nli_passing_but_absent_from_core": 5,
+  "not_recovered_total": 53
+}

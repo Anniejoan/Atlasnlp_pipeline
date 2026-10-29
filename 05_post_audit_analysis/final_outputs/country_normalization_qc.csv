@@ -1,0 +1,25 @@
+raw_country_token,normalized_country_token,action,reason,occurrences,affected_record_count,affected_record_ids
+Hong Kong,China,MAP,Hong Kong -> China,22,22,379;1276;2924;3567;4180;5254;5908;6308;6759;6938;7298;9697;10369;10401;10593;11402;14004;14019;14077;14915;15503;17003
+England,United Kingdom,MAP,England -> United Kingdom,12,12,804;4197;4506;4882;6519;7907;11280;14261;14268;14312;14977;17444
+Puerto Rico,United States,MAP,Puerto Rico -> United States,5,5,4458;4597;9991;10689;14163
+Scotland,United Kingdom,MAP,Scotland -> United Kingdom,5,5,14;5908;6712;13996;14268
+Wales,United Kingdom,MAP,Wales -> United Kingdom,5,5,388;2380;11613;12467;14268
+Faroe Islands,Denmark,MAP,Faroe Islands -> Denmark,4,4,5034;7804;7815;14423
+Republic of Moldova,Moldova,MAP,Republic of Moldova -> Moldova,4,4,1968;2979;14033;15621
+Bosnia,Bosnia and Herzegovina,MAP,Bosnia -> Bosnia and Herzegovina,2,2,16082;17765
+Britain,United Kingdom,MAP,Britain -> United Kingdom,2,2,12797;14877
+Greenland,Denmark,MAP,Greenland -> Denmark,2,2,442;7180
+Macedonia,North Macedonia,MAP,Macedonia -> North Macedonia,2,2,15599;16082
+China,China,REMOVE_INFERRED_DUPLICATE,EXPLICIT_EVIDENCE_OUTRANKS_INFERRED,1,1,14004
+Congo,,DROP,AMBIGUOUS_COUNTRY_NAME,1,1,12794
+FYR Macedonia,North Macedonia,MAP,FYR Macedonia -> North Macedonia,1,1,17765
+French Guiana,France,MAP,French Guiana -> France,1,1,65
+Great Britain,United Kingdom,MAP,Great Britain -> United Kingdom,1,1,14916
+Hong Kong SAR,China,MAP,Hong Kong SAR -> China,1,1,1567
+Multiple countries (50 countries; 31 Indo-European countries used in analysis),,DROP,AGGREGATE_NOT_COUNTRY,1,1,16454
+Northern Ireland,United Kingdom,MAP,Northern Ireland -> United Kingdom,1,1,3756
+Saint Vincent,Saint Vincent and the Grenadines,MAP,Saint Vincent -> Saint Vincent and the Grenadines,1,1,4587
+The Republic of Korea,South Korea,MAP,The Republic of Korea -> South Korea,1,1,3384
+United Emirates,United Arab Emirates,MAP,United Emirates -> United Arab Emirates,1,1,12028
+United Kingdom,United Kingdom,REMOVE_INFERRED_DUPLICATE,EXPLICIT_EVIDENCE_OUTRANKS_INFERRED,1,1,4197
+Worldwide (multiple countries),,DROP,AGGREGATE_NOT_COUNTRY,1,1,16225

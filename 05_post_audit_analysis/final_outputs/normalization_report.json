@@ -1,0 +1,52 @@
+{
+  "input_sampling_frame_rows": 18035,
+  "input_v2_success_rows": 18031,
+  "final_master_rows": 18035,
+  "missing_v2_record_ids_marked_processing_failure": [
+    "513",
+    "1600",
+    "3680",
+    "14504"
+  ],
+  "country_ontology_size": 197,
+  "country_ontology_definition": "195-state AtlasNLP ontology + Taiwan + Kosovo",
+  "normalized_country_unique_count_observed": 168,
+  "unmapped_country_tokens_remaining": 0,
+  "language_normalization": {
+    "source": "existing canonical_language_string_cleaned / canonical_language_count_cleaned",
+    "records_with_canonical_language": 16999,
+    "records_without_canonical_language": 1036,
+    "language_count_mismatches": 0
+  },
+  "normalized_status_counts": {
+    "EXCLUDED_TARGET_NOT_FOUND": 408,
+    "UNATTRIBUTED": 9956,
+    "EXCLUDED_REUSE": 4071,
+    "EXPLICIT": 2447,
+    "EXCLUDED_AMBIGUOUS": 90,
+    "INFERRED_ONLY": 1059,
+    "PROCESSING_FAILURE": 4
+  },
+  "primary_eligible_records": 13462,
+  "explicit_records": 2447,
+  "inferred_only_records": 1059,
+  "explicit_plus_inferred_records": 3506,
+  "unattributed_eligible_records": 9956,
+  "explicit_country_associations": 4421,
+  "explicit_plus_inferred_country_associations": 6001,
+  "dataset_relationship_counts_successful_records": {
+    "TARGET_DATASET_NOT_FOUND": 408,
+    "INTRODUCED_HERE": 12238,
+    "REUSED_EXISTING": 4071,
+    "EXTENDED_HERE": 823,
+    "NEW_COMPILATION_HERE": 449,
+    "MULTIPLE_DATASETS_AMBIGUOUS": 42
+  },
+  "country_normalization_qc_rows": 24,
+  "notes": [
+    "One v2 EXPLICIT row containing only an aggregate multi-country label becomes UNATTRIBUTED after normalization.",
+    "The ambiguous token 'Congo' is dropped rather than guessed; the affected record retains other valid inferred countries.",
+    "Explicit evidence outranks inferred evidence when alias normalization collapses both tiers to the same country.",
+    "The four v2 processing failures remain in the 18,035-row master and are never relabeled UNATTRIBUTED."
+  ]
+}

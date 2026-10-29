@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DatasetMetadataExtraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper", "dataset", "evidence", "quality", "run"],
+  "properties": {
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paper_id": { "type": "string" },
+        "paper_url": { "type": "string" },
+        "paper_link_in_text": { "type": "string" },
+        "year": { "type": "string" },
+        "title": { "type": "string" }
+      },
+      "required": ["paper_id", "paper_url", "paper_link_in_text", "year", "title"]
+    },
+
+    "dataset": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dataset_name": { "type": "string" },
+
+        "task_category": {
+          "type": "string",
+          "enum": [
+            "Code Models",
+            "Computational Social Science, Cultural Analytics, NLP for Social Good",
+            "Dialogue and Interactive Systems",
+            "Discourse, Pragmatics, and Reasoning",
+            "Efficient / Low-Resource Methods for NLP, LLM Efficiency",
+            "Ethics, Bias, and Fairness",
+            "Generalizability and Transfer",
+            "Hierarchical Structure Prediction, Syntax, and Parsing",
+            "Human-AI Interaction / Cooperation, Human-Centered NLP",
+            "Information Extraction, Retrieval, and Text Mining",
+            "Interpretability, Model Analysis, Transparency, and Explainability",
+            "Language Modeling",
+            "LLM Agents",
+            "Linguistic Theories, Cognitive Modeling, and Psycholinguistics",
+            "Machine Learning for NLP",
+            "Machine Translation",
+            "Mathematical, Symbolic, and Logical Reasoning in NLP",
+            "Multilinguality and Language Diversity",
+            "Multimodality and Language Grounding to Vision, Robotics, and Beyond",
+            "Natural Language Generation",
+            "Neurosymbolic Approaches to NLP",
+            "NLP Applications",
+            "Phonology, Morphology, and Word Segmentation",
+            "Question Answering",
+            "Retrieval-Augmented Language Models",
+            "Safety and Alignment in LLMs",
+            "Semantics: Lexical and Sentence Level, Textual Inference",
+            "Sentiment Analysis, Stylistic Analysis, and Argument Mining",
+            "Speech Recognition, Text-to-Speech, and Spoken Language Understanding",
+            "Summarization",
+            "Syntax: Tagging, Chunking, and Parsing",
+            "Not stated"
+          ]
+        },
+
+        "country_attribution_method": {
+          "type": "string",
+          "enum": [
+            "Explicit (metadata or creator affiliation))",
+            "Inferred (by language)",
+            "Unspecified/Ambigous",
+            "Not stated"
+          ]
+        },
+
+        "languages_covered": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+
+        "is_dataset_multilingual": {
+          "type": "string",
+          "enum": ["Monolingual", "Multilingual", "Not stated"]
+        },
+
+        "dataset_link": { "type": "string" },
+
+        "multimodal": {
+          "type": "string",
+          "enum": ["Yes", "No", "Not stated"]
+        },
+
+        "multiple_choice_format": {
+          "type": "string",
+          "enum": ["Yes", "No", "Not stated"]
+        },
+
+        "short_description": { "type": "string" },
+
+        "license": { "type": "string" },
+
+        "origin_type": {
+          "type": "string",
+          "enum": ["Native/Local", "Foreign Led", "Mixed", "Not stated"]
+        },
+
+        "synthetic": {
+          "type": "string",
+          "enum": ["Yes", "No", "Not stated"]
+        },
+
+        "synthetic_notes": { "type": "string" },
+
+        "multi_country": {
+          "type": "string",
+          "enum": ["Yes", "No", "Not stated"]
+        },
+
+        "countries_covered": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": [
+        "dataset_name",
+        "task_category",
+        "country_attribution_method",
+        "languages_covered",
+        "is_dataset_multilingual",
+        "dataset_link",
+        "multimodal",
+        "multiple_choice_format",
+        "short_description",
+        "license",
+        "origin_type",
+        "synthetic",
+        "synthetic_notes",
+        "multi_country",
+        "countries_covered"
+      ]
+    },
+
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": { "type": "string" },
+          "page": { "type": "integer", "minimum": 1 },
+          "quote": { "type": "string" }
+        },
+        "required": ["field", "page", "quote"]
+      }
+    },
+
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "flags": { "type": "array", "items": { "type": "string" } },
+        "needs_stage2": { "type": "boolean" }
+      },
+      "required": ["flags", "needs_stage2"]
+    },
+
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "model": { "type": "string" },
+        "prompt_version": { "type": "string" }
+      },
+      "required": ["model", "prompt_version"]
+    }
+  }
+}

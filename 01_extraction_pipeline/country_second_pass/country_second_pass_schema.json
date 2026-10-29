@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paper_id": { "type": "string" },
+        "paper_url": { "type": "string" }
+      },
+      "required": ["paper_id", "paper_url"]
+    },
+    "country_recovery": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "all_countries_covered": {
+          "type": "string"
+        },
+        "country_attribution_method": {
+          "type": "string",
+          "enum": [
+            "Explicit country focus",
+            "Multi-country coverage",
+            "Inferred by language",
+            "Not stated"
+          ]
+        },
+        "rationale": { "type": "string" }
+      },
+      "required": [
+        "all_countries_covered",
+        "country_attribution_method",
+        "rationale"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "all_countries_covered",
+              "country_attribution_method"
+            ]
+          },
+          "page": { "type": "integer", "minimum": 1 },
+          "quote": { "type": "string" }
+        },
+        "required": ["field", "page", "quote"]
+      }
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "model": { "type": "string" },
+        "prompt_version": { "type": "string" }
+      },
+      "required": ["model", "prompt_version"]
+    }
+  },
+  "required": ["paper", "country_recovery", "evidence", "run"]
+}

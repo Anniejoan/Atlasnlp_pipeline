@@ -1,0 +1,373 @@
+paper_url_normalized,passed_nli,gold_dataset_names,gold_dataset_count,core_dataset_names,core_source_row_indices,core_dataset_count,paper_link_raw
+https://aclanthology.org/2005.mtsummit-papers.11,True,Europarl v7,1,Europarl Corpus,17963,1,https://aclanthology.org/2005.mtsummit-papers.11/
+https://aclanthology.org/2019.gwc-1.30,True,Mongolian Wordnet,1,Mongolian WordNet (MOW),16181,1,https://aclanthology.org/2019.gwc-1.30/
+https://aclanthology.org/2020.aacl-main.85,True,Indo4B; indonlu,2,Indo4B,15251,1,https://aclanthology.org/2020.aacl-main.85.pdf
+https://aclanthology.org/2020.acl-main.112,True,Emotion Lexicons for 91 Languages,2,Emotion Lexicons for 91 Languages,15066,1,https://aclanthology.org/2020.acl-main.112/
+https://aclanthology.org/2020.acl-main.417,True,ParaCrawl,1,ParaCrawl,15125,1,https://aclanthology.org/2020.acl-main.417/
+https://aclanthology.org/2020.acl-main.635,True,KdConv,1,KdConv,15176,1,https://aclanthology.org/2020.acl-main.635.pdf
+https://aclanthology.org/2020.acl-srw.11,True,North Korean-English evaluation dataset,1,North Korean-English evaluation dataset,15221,1,https://aclanthology.org/2020.acl-srw.11/
+https://aclanthology.org/2020.coling-main.233,True,UIT-ViQuAD2.0,1,UIT-ViQuAD,14851,1,https://aclanthology.org/2020.coling-main.233.pdf
+https://aclanthology.org/2020.coling-main.447,True,AraBench,1,AraBench,14892,1,https://aclanthology.org/2020.coling-main.447/
+https://aclanthology.org/2020.coling-main.51,True,LAD (Large Arabizi Dataset),1,LAD (Large Arabizi Dataset),14793,1,https://aclanthology.org/2020.coling-main.51/
+https://aclanthology.org/2020.coling-main.530,True,SADID Evaluation Datasets,1,SADID Evaluation Datasets,14920,1,https://aclanthology.org/2020.coling-main.530/
+https://aclanthology.org/2020.coling-main.572,True,NYTWIT,1,NYTWIT,14936,1,https://aclanthology.org/2020.coling-main.572/
+https://aclanthology.org/2020.conll-1.1,True,International Corpus of English (ICE),1,International Corpus of English (ICE),14768,1,https://aclanthology.org/2020.conll-1.1/
+https://aclanthology.org/2020.emnlp-main.185,True,NLR-Causal-Reasoning,1,XCOPA,14604,1,https://aclanthology.org/2020.emnlp-main.185/
+https://aclanthology.org/2020.emnlp-main.472,True,Micro-Ara,2,Micro-Ara,14668,1,https://aclanthology.org/2020.emnlp-main.472/
+https://aclanthology.org/2020.findings-emnlp.107,True,FQuAD,1,FQuAD,14466,1,https://aclanthology.org/2020.findings-emnlp.107/
+https://aclanthology.org/2020.findings-emnlp.195,True,Masakhane MT Datasets,1,Masakhane MT Datasets,14494,1,https://aclanthology.org/2020.findings-emnlp.195/
+https://aclanthology.org/2020.findings-emnlp.297,True,Hebrew Morphological Disambiguation Challenge Set,1,Hebrew Morphological Disambiguation Challenge Set,14514,1,https://aclanthology.org/2020.findings-emnlp.297/
+https://aclanthology.org/2020.law-1.3,True,Global Web-Based English (GloWbE),1,Global Web-Based English (GloWbE),14329,1,https://aclanthology.org/2020.law-1.3/
+https://aclanthology.org/2020.lrec-1.165,True,Habibi Corpus,2,Habibi Corpus,13899,1,https://aclanthology.org/2020.lrec-1.165/
+https://aclanthology.org/2020.lrec-1.20,True,ACQDIV Corpus,1,ACQDIV Corpus,13798,1,https://aclanthology.org/2020.lrec-1.20/
+https://aclanthology.org/2020.lrec-1.256,True,WFM,1,WFM,13950,1,https://aclanthology.org/2020.lrec-1.256/
+https://aclanthology.org/2020.lrec-1.294,True,Dakshina,1,Dakshina,13972,1,https://aclanthology.org/2020.lrec-1.294/
+https://aclanthology.org/2020.lrec-1.312,True,Nunavut Hansard Inuktitut–English Parallel Corpus 3.0,2,Nunavut Hansard Inuktitut–English Parallel Corpus 3.0,13981,1,https://aclanthology.org/2020.lrec-1.312/
+https://aclanthology.org/2020.lrec-1.342,True,OPUS-100 (includes Nepali-English pair),1,Unified Scottish Gaelic Wordnet,13996,1,https://aclanthology.org/2020.lrec-1.342/
+https://aclanthology.org/2020.lrec-1.364,True,Myanmar-English Named Entity Transliteration Dictionary,1,Myanmar-English Named Entity Transliteration Dictionary,14012,1,https://aclanthology.org/2020.lrec-1.364.pdf
+https://aclanthology.org/2020.lrec-1.370,True,Romance Verbal Inflection Dataset 2.0,1,Romance Verbal Inflection Dataset 2.0,14016,1,https://aclanthology.org/2020.lrec-1.370/
+https://aclanthology.org/2020.lrec-1.453,True,MEDLINE parallel corpus,1,MEDLINE parallel corpus,14051,1,https://aclanthology.org/2020.lrec-1.453/
+https://aclanthology.org/2020.lrec-1.521,True,WikiPron,1,WikiPron,14093,1,https://aclanthology.org/2020.lrec-1.521/
+https://aclanthology.org/2020.lrec-1.522,True,HELFI,1,HELFI,14094,1,https://aclanthology.org/2020.lrec-1.522/
+https://aclanthology.org/2020.lrec-1.559,True,NorNE,1,NorNE,14121,1,https://aclanthology.org/2020.lrec-1.559.pdf
+https://aclanthology.org/2020.lrec-1.566,True,ISW corpus,1,ISW corpus,14128,1,https://aclanthology.org/2020.lrec-1.566/
+https://aclanthology.org/2020.lrec-1.618,True,NoReC_fine,1,NoReCfine,14154,1,https://aclanthology.org/2020.lrec-1.618.pdf
+https://aclanthology.org/2020.lrec-1.628,True,HAHA 2019,5,HAHA 2019,14163,1,https://aclanthology.org/2020.lrec-1.628/
+https://aclanthology.org/2020.lrec-1.727,True,Hebrew Semantic Role Labeling Resource,1,Hebrew Semantic Role Labeling Resource,14215,1,https://aclanthology.org/2020.lrec-1.727/
+https://aclanthology.org/2020.lrec-1.766,True,Bilingual Troll Tweets,1,Bilingual Troll Tweets,14240,1,https://aclanthology.org/2020.lrec-1.766/
+https://aclanthology.org/2020.lrec-1.777,True,Burmese Speech Corpus; OpenSLR SLR72,3,Burmese Corpus,14250,1,https://aclanthology.org/2020.lrec-1.777/
+https://aclanthology.org/2020.lrec-1.801,True,Crowdsourced Chilean Spanish Speech Data (OpenSLR); OpenSLR SLR61: Crowdsourced high-quality Argentinian Spanish speech data set; recordings_peruvian_spanish,3,Latin American Spanish Speech Datasets,14265,1,https://aclanthology.org/2020.lrec-1.801/
+https://aclanthology.org/2020.lrec-1.830,True,SNEC (Slovak Named Entity Corpus),1,SME,14285,1,https://aclanthology.org/2020.lrec-1.830/
+https://aclanthology.org/2020.osact-1.3,True,Arab-Tweet,2,Arab-Tweet,13688,1,https://aclanthology.org/2020.osact-1.3/
+https://aclanthology.org/2020.rail-1.1,True,ǂKhomani San | Hugh Brody Collection,1,ǂKhomani San | Hugh Brody Collection,13666,1,https://aclanthology.org/2020.rail-1.1/
+https://aclanthology.org/2020.smm4h-1.11,True,Beyond Blue,1,Beyond Blue,13539,1,https://aclanthology.org/2020.smm4h-1.11/
+https://aclanthology.org/2020.tacl-1.19,True,CrossWOZ,1,CrossWOZ,13511,1,https://aclanthology.org/2020.tacl-1.19.pdf
+https://aclanthology.org/2020.wanlp-1.21,True,Arabic Social Media News Dataset (ASND),2,Arabic Social Media News Dataset (ASND),13467,1,https://aclanthology.org/2020.wanlp-1.21/
+https://aclanthology.org/2020.wanlp-1.9,True,NADI Dataset,3,NADI Dataset,13462,1,https://aclanthology.org/2020.wanlp-1.9/
+https://aclanthology.org/2021.acl-demo.37,True,Many-to-English,1,Many-to-English Multilingual NMT Dataset,13397,1,https://aclanthology.org/2021.acl-demo.37/
+https://aclanthology.org/2021.acl-long.80,True,VoxPopuli,2,VoxPopuli,13237,1,https://aclanthology.org/2021.acl-long.80/
+https://aclanthology.org/2021.acl-srw.5,True,Sumerian Cuneiform Dataset,1,Sumerian Cuneiform Dataset,13382,1,https://aclanthology.org/2021.acl-srw.5/
+https://aclanthology.org/2021.americasnlp-1.2,True,UD_Kiche-IU,2,K’iche’ Corpus,13195,1,https://aclanthology.org/2021.americasnlp-1.2/
+https://aclanthology.org/2021.case-1.11,True,GLOCON Gold,1,GLOCON Gold,13146,1,https://aclanthology.org/2021.case-1.11/
+https://aclanthology.org/2021.clpsych-1.5,True,Vent,1,Vent,13124,1,https://aclanthology.org/2021.clpsych-1.5/
+https://aclanthology.org/2021.dravidianlangtech-1.16,True,TamilMemes,1,TamilMemes,13069,1,https://aclanthology.org/2021.dravidianlangtech-1.16/
+https://aclanthology.org/2021.eacl-main.115,True,WikiMatrix,1,WikiMatrix,12996,1,https://aclanthology.org/2021.eacl-main.115/
+https://aclanthology.org/2021.eacl-main.126,True,SICK-NL,1,SICK-NL,13000,1,https://aclanthology.org/2021.eacl-main.126/
+https://aclanthology.org/2021.emnlp-main.356,True,DuRecDial 2.0,1,DuRecDial 2.0,12835,1,https://aclanthology.org/2021.emnlp-main.356.pdf
+https://aclanthology.org/2021.emnlp-main.559,True,MULTI -EURLEX,1,MULTI -EURLEX,12889,1,https://aclanthology.org/2021.emnlp-main.559/
+https://aclanthology.org/2021.emnlp-main.99,True,AFROMT,2,AFROMT,12794,1,https://aclanthology.org/2021.emnlp-main.99/
+https://aclanthology.org/2021.findings-emnlp.281,True,SD-QA; SD-QA: Spoken Dialectal Question Answering,3,SD-QA,12724,1,https://aclanthology.org/2021.findings-emnlp.281/
+https://aclanthology.org/2021.findings-emnlp.56,True,COVID-19 Disinformation Dataset,1,COVID-19 Disinformation Dataset,12673,1,https://aclanthology.org/2021.findings-emnlp.56/
+https://aclanthology.org/2021.germeval-1.1,True,GermEval 2021 Toxic / Engaging / Fact-Claiming Comments,1,GermEval 2021 Dataset,12646,1,https://aclanthology.org/2021.germeval-1.1.pdf
+https://aclanthology.org/2021.gwc-1.2,True,UZWORDNET,1,UZWORDNET,12635,1,https://aclanthology.org/2021.gwc-1.2/
+https://aclanthology.org/2021.gwc-1.3,True,African WordNets,1,African WordNets,12636,1,https://aclanthology.org/2021.gwc-1.3/
+https://aclanthology.org/2021.hcinlp-1.12,True,Die Biblioteek aan die Einde van die W ˆereld,2,Die Biblioteek aan die Einde van die W ˆereld,12628,1,https://aclanthology.org/2021.hcinlp-1.12/
+https://aclanthology.org/2021.iwpt-1.22,True,Enhanced Universal Dependencies,1,Enhanced Universal Dependencies,12572,1,https://aclanthology.org/2021.iwpt-1.22/
+https://aclanthology.org/2021.iwpt-1.9,True,Universal Dependencies treebanks,2,Universal Dependencies treebanks,12570,1,https://aclanthology.org/2021.iwpt-1.9/
+https://aclanthology.org/2021.latechclfl-1.15,True,Byzantine Greek,1,Byzantine Greek gold standard data set,12552,1,https://aclanthology.org/2021.latechclfl-1.15.pdf
+https://aclanthology.org/2021.mrl-1.18,True,Disaster Tweets,1,Disaster Tweets,12509,1,https://aclanthology.org/2021.mrl-1.18/
+https://aclanthology.org/2021.mrqa-1.4,True,GermanQuAD,1,GermanQuAD,12499,1,https://aclanthology.org/2021.mrqa-1.4.pdf
+https://aclanthology.org/2021.mtsummit-research.8,True,GoURMET Pashto–English Parallel Corpora,1,Pashto-English Parallel Corpus,12486,1,https://aclanthology.org/2021.mtsummit-research.8.pdf
+https://aclanthology.org/2021.naacl-main.173,True,pho_ner_covid,1,COVID-19 NER Dataset for Vietnamese,12403,1,https://aclanthology.org/2021.naacl-main.173.pdf
+https://aclanthology.org/2021.nllp-1.1,True,Multilingual Corpus for Detection of Potentially Unfair Clauses,1,Multilingual Corpus for Detection of Potentially Unfair Clauses,12342,1,https://aclanthology.org/2021.nllp-1.1/
+https://aclanthology.org/2021.nllp-1.5,True,EXCEPTIUS,1,EXCEPTIUS,12345,1,https://aclanthology.org/2021.nllp-1.5/
+https://aclanthology.org/2021.nllp-1.6,True,Greek Legal Code,1,Greek Legal Code (GLC),12346,1,https://aclanthology.org/2021.nllp-1.6.pdf
+https://aclanthology.org/2021.nlp4dh-1.5,True,HOME-Alcar,1,HOME-Alcar,12327,1,https://aclanthology.org/2021.nlp4dh-1.5/
+https://aclanthology.org/2021.nlp4if-1.2,True,Dutch LiLaH corpus,1,Dutch LiLaH corpus,12322,1,https://aclanthology.org/2021.nlp4if-1.2/
+https://aclanthology.org/2021.nodalida-main.14,True,OntoNotes Finnish NER corpus,1,OntoNotes Finnish NER corpus,12284,1,https://aclanthology.org/2021.nodalida-main.14/
+https://aclanthology.org/2021.nodalida-main.16,True,CORE corpus series,1,CORE corpus series,12285,1,https://aclanthology.org/2021.nodalida-main.16/
+https://aclanthology.org/2021.nodalida-main.17,True,Neural Morphology Dataset,2,Neural Morphology Dataset,12286,1,https://aclanthology.org/2021.nodalida-main.17/
+https://aclanthology.org/2021.nodalida-main.29,True,Finnish Paraphrase Corpus,1,Finnish Paraphrase Corpus,12291,1,https://aclanthology.org/2021.nodalida-main.29/
+https://aclanthology.org/2021.nodalida-main.30,True,norec_neg,2,NoReCneg,12292,1,https://aclanthology.org/2021.nodalida-main.30.pdf
+https://aclanthology.org/2021.nodalida-main.37,True,UiT freecorpus,1,UiT freecorpus,12293,1,https://aclanthology.org/2021.nodalida-main.37/
+https://aclanthology.org/2021.nodalida-main.45,True,Text Normalization Corpus 21.10,1,Icelandic Normalization Corpus,12296,1,https://aclanthology.org/2021.nodalida-main.45.pdf
+https://aclanthology.org/2021.nodalida-main.51,True,NorDial,1,NorDial,12302,1,https://aclanthology.org/2021.nodalida-main.51.pdf
+https://aclanthology.org/2021.ranlp-1.104,True,Wikipedia Corpora for South-Slavic Languages,2,Wikipedia Corpora for South-Slavic Languages,12247,1,https://aclanthology.org/2021.ranlp-1.104/
+https://aclanthology.org/2021.ranlp-1.118,True,Text-to-Picto System for French,2,Text-to-Picto System for French,12251,1,https://aclanthology.org/2021.ranlp-1.118/
+https://aclanthology.org/2021.ranlp-1.160,True,NLP4IF,1,NLP4IF,12267,1,https://aclanthology.org/2021.ranlp-1.160/
+https://aclanthology.org/2021.ranlp-1.81,True,GNC; GWE,3,Greek Native Corpus (GNC),12236,1,https://aclanthology.org/2021.ranlp-1.81.pdf
+https://aclanthology.org/2021.sigdial-1.41,True,Meena chatbot evaluation dataset,1,Meena chatbot evaluation dataset,12137,1,https://aclanthology.org/2021.sigdial-1.41/
+https://aclanthology.org/2021.sigmorphon-1.25,True,UniMorph,1,UniMorph,12122,1,https://aclanthology.org/2021.sigmorphon-1.25/
+https://aclanthology.org/2021.tacl-1.66,True,MasakhaNER (MasakhaNER 1.0),1,MasakhaNER,12085,1,https://aclanthology.org/2021.tacl-1.66/
+https://aclanthology.org/2021.wanlp-1.1,True,QADI,2,QADI,12026,1,https://aclanthology.org/2021.wanlp-1.1/
+https://aclanthology.org/2021.wanlp-1.15,True,UL2C,1,UL2C,12033,1,https://aclanthology.org/2021.wanlp-1.15/
+https://aclanthology.org/2021.wanlp-1.25,True,Tunisian Arabizi Dialectal Dataset for Sentiment Analysis,1,Tunisian Arabizi Dialectal Dataset,12040,1,https://aclanthology.org/2021.wanlp-1.25.pdf
+https://aclanthology.org/2021.wanlp-1.28,True,NADI 2021 Dataset,1,NADI 2021 Dataset,12042,1,https://aclanthology.org/2021.wanlp-1.28/
+https://aclanthology.org/2021.wanlp-1.9,True,ArCOV-19,1,ArCOV-19,12030,1,https://aclanthology.org/2021.wanlp-1.9/
+https://aclanthology.org/2021.wnut-1.15,True,PoliWAM,1,PoliWAM,11967,1,https://aclanthology.org/2021.wnut-1.15/
+https://aclanthology.org/2022.acl-long.47,True,ARGEN,1,ARGEN,11731,1,https://aclanthology.org/2022.acl-long.47/
+https://aclanthology.org/2022.acl-short.55,True,Livonian-English Parallel Corpus,1,Livonian-English Parallel Corpus,11883,1,https://aclanthology.org/2022.acl-short.55/
+https://aclanthology.org/2022.coling-1.394,True,Synthetic datasets for Named Entity Recognition,1,Synthetic datasets for Named Entity Recognition,11553,1,https://aclanthology.org/2022.coling-1.394/
+https://aclanthology.org/2022.coling-1.447,True,OPUS-100,4,OPUS-100,11560,1,https://aclanthology.org/2022.coling-1.447/
+https://aclanthology.org/2022.crac-1.6,True,NARC,1,Norwegian Anaphora Resolution Corpus (NARC),11421,1,https://aclanthology.org/2022.crac-1.6.pdf
+https://aclanthology.org/2022.dclrl-1.6,True,De­dropped XNLI; EX­GR­FraCaS; RTE 2.0,3,EX-GR-FraCaS,11401,1,https://aclanthology.org/2022.dclrl-1.6.pdf
+https://aclanthology.org/2022.dclrl-1.8,True,LiSTra,4,LiSTra,11403,1,https://aclanthology.org/2022.dclrl-1.8/
+https://aclanthology.org/2022.digitam-1.5,True,Eastern Armenian National Corpus (EANC),1,Eastern Armenian National Corpus (EANC),11381,1,https://aclanthology.org/2022.digitam-1.5.pdf
+https://aclanthology.org/2022.dravidianlangtech-1.40,True,Offensive Span Identification Dataset,1,Offensive Span Identification Dataset,11374,1,https://aclanthology.org/2022.dravidianlangtech-1.40/
+https://aclanthology.org/2022.emnlp-main.128,True,AfroLID,15,AfroLID,11133,1,https://aclanthology.org/2022.emnlp-main.128/
+https://aclanthology.org/2022.emnlp-main.138,True,Stanceosaurus,1,Stanceosaurus,11137,1,https://aclanthology.org/2022.emnlp-main.138/
+https://aclanthology.org/2022.emnlp-main.298,True,MasakhaNER 2.0,2,MasakhaNER 2.0,11164,1,https://aclanthology.org/2022.emnlp-main.298/
+https://aclanthology.org/2022.emnlp-main.348,True,RuCoLA,1,RuCoLA,11180,1,https://aclanthology.org/2022.emnlp-main.348/
+https://aclanthology.org/2022.emnlp-main.796,True,COLD,2,COLD ATASET,11314,1,https://aclanthology.org/2022.emnlp-main.796.pdf
+https://aclanthology.org/2022.eurali-1.9,True,Shughni corpus,1,Shughni corpus,11096,1,https://aclanthology.org/2022.eurali-1.9/
+https://aclanthology.org/2022.findings-acl.87,True,XTREMESPEECH,1,XtremeSpeech,10832,1,https://aclanthology.org/2022.findings-acl.87/
+https://aclanthology.org/2022.findings-emnlp.321,True,HUMSET,7,HUMSET,11023,1,https://aclanthology.org/2022.findings-emnlp.321/
+https://aclanthology.org/2022.findings-emnlp.389,True,JamPatoisNLI,1,JamPatoisNLI,11041,1,https://aclanthology.org/2022.findings-emnlp.389/
+https://aclanthology.org/2022.findings-naacl.49,True,M¯aori-English Words (MEW) database,1,M¯aori-English Words (MEW) database,10895,1,https://aclanthology.org/2022.findings-naacl.49/
+https://aclanthology.org/2022.gem-1.10,True,Wikiomnia,1,WikiOmnia,10769,1,https://aclanthology.org/2022.gem-1.10
+https://aclanthology.org/2022.gem-1.30,True,GiCCS,1,GiCCS,10773,1,https://aclanthology.org/2022.gem-1.30/
+https://aclanthology.org/2022.lrec-1.175,True,WikinewsSum,1,WikinewsSum,10276,1,https://aclanthology.org/2022.lrec-1.175/
+https://aclanthology.org/2022.lrec-1.219,True,Student Feedback Corpus,2,Student Feedback Corpus,10307,1,https://aclanthology.org/2022.lrec-1.219/
+https://aclanthology.org/2022.lrec-1.222,True,Niger-Mali Audio Collection,2,Tamasheq-French Parallel Corpus,10310,1,https://aclanthology.org/2022.lrec-1.222.pdf
+https://aclanthology.org/2022.lrec-1.224,True,MOT,1,Multilingual Open Text (MOT),10312,1,https://aclanthology.org/2022.lrec-1.224/
+https://aclanthology.org/2022.lrec-1.253,True,FIGHT,1,FIGHT,10335,1,https://aclanthology.org/2022.lrec-1.253/
+https://aclanthology.org/2022.lrec-1.274,True,NorDiaChange,1,NorDiaChange,10349,1,https://aclanthology.org/2022.lrec-1.274.pdf
+https://aclanthology.org/2022.lrec-1.284,True,SciPar,1,SciPar,10353,1,https://aclanthology.org/2022.lrec-1.284/
+https://aclanthology.org/2022.lrec-1.293,True,ISO-based Annotated Multilingual Parallel Corpus for Discourse Markers,2,ISO-based Annotated Multilingual Parallel Corpus for Discourse Markers,10359,1,https://aclanthology.org/2022.lrec-1.293/
+https://aclanthology.org/2022.lrec-1.513,True,GermEval 2018 Offensive Language Identification (tweets),1,Offensive German Language Tweets,10484,1,https://aclanthology.org/2022.lrec-1.513.pdf
+https://aclanthology.org/2022.lrec-1.516,True,NDC Treebank,1,NDC Treebank,10487,1,https://aclanthology.org/2022.lrec-1.516.pdf
+https://aclanthology.org/2022.lrec-1.539,True,PALMA Corpora,1,PALMA Corpora,10503,1,https://aclanthology.org/2022.lrec-1.539/
+https://aclanthology.org/2022.lrec-1.546,True,OpenSLR-52,1,OpenSLR-52,10508,1,https://aclanthology.org/2022.lrec-1.546/
+https://aclanthology.org/2022.lrec-1.600,True,DPRK Language Corpus; DPRK-BERT; KCNA,5,DPRK Language Corpus,10543,1,https://aclanthology.org/2022.lrec-1.600/
+https://aclanthology.org/2022.lrec-1.603,True,CINTIL-UPos,1,CINTIL-UPos,10546,1,https://aclanthology.org/2022.lrec-1.603/
+https://aclanthology.org/2022.lrec-1.63,True,NaijaSenti,1,NaijaSenti,10202,1,https://aclanthology.org/2022.lrec-1.63/
+https://aclanthology.org/2022.lrec-1.664,True,MAKED,1,MAKED,10582,1,https://aclanthology.org/2022.lrec-1.664/
+https://aclanthology.org/2022.lrec-1.701,True,Language Identification Models for Austronesian Languages,1,Language Identification Models for Austronesian Languages,10597,1,https://aclanthology.org/2022.lrec-1.701/
+https://aclanthology.org/2022.lrec-1.722,True,North Korean Parallel Corpus,1,North Korean Parallel Corpus,10611,1,https://aclanthology.org/2022.lrec-1.722/
+https://aclanthology.org/2022.lrec-1.727,True,gaHealth,1,gaHealth,10616,1,https://aclanthology.org/2022.lrec-1.727/
+https://aclanthology.org/2022.lrec-1.752,True,DirectQuote,1,DirectQuote,10633,1,https://aclanthology.org/2022.lrec-1.752/
+https://aclanthology.org/2022.lrec-1.776,True,MIXED,1,MIXED,10649,1,https://aclanthology.org/2022.lrec-1.776/
+https://aclanthology.org/2022.lrec-1.785,True,pysentimiento/spanish-tweets,2,RoBERTuito Training Dataset,10654,1,https://aclanthology.org/2022.lrec-1.785/
+https://aclanthology.org/2022.lrec-1.790,True,BembaSpeech,2,BembaSpeech,10658,1,https://aclanthology.org/2022.lrec-1.790.pdf
+https://aclanthology.org/2022.lrec-1.85,True,ParCorFull2.0,1,ParCorFull2.0,10219,1,https://aclanthology.org/2022.lrec-1.85/
+https://aclanthology.org/2022.mmnlu-1.7,True,MASSIVE,4,MASSIVE,10128,1,https://aclanthology.org/2022.mmnlu-1.7/
+https://aclanthology.org/2022.naacl-main.223,True,Mafand,7,MAFAND-MT,10063,1,https://aclanthology.org/2022.naacl-main.223/
+https://aclanthology.org/2022.naacl-main.23,True,SwahBERT emotion dataset,1,Swahili Emotion Classification Dataset,10024,1,https://aclanthology.org/2022.naacl-main.23/
+https://aclanthology.org/2022.naacl-main.246,True,CHEF,2,CHEF,10071,1,https://aclanthology.org/2022.naacl-main.246.pdf
+https://aclanthology.org/2022.semeval-1.60,True,Don’t Patronize Me! An Annotated Dataset with Patronizing and Condescending Language towards Vulnerable Communities,1,Don’t Patronize Me! An Annotated Dataset with Patronizing and Condescending Language towards Vulnerable Communities,9860,1,https://aclanthology.org/2022.semeval-1.60/
+https://aclanthology.org/2022.sigmorphon-1.19,True,SIGMORPHON–UniMorph 2022 Shared Task 0 Datasets;; hyw: apertium-hyw,2,UniMorph Database,9827,1,https://aclanthology.org/2022.sigmorphon-1.19.pdf
+https://aclanthology.org/2022.sigul-1.26,True,SimRelUz,1,SimRelUz,9804,1,https://aclanthology.org/2022.sigul-1.26/
+https://aclanthology.org/2022.tacl-1.9,True,Samanantar,1,Samanantar,9731,1,https://aclanthology.org/2022.tacl-1.9.pdf
+https://aclanthology.org/2022.wanlp-1.46,True,NADI 2022 Dataset,1,NADI 2022 Dataset,9693,1,https://aclanthology.org/2022.wanlp-1.46/
+https://aclanthology.org/2022.wmt-1.47,True,MS-COMET,1,MS-COMET,9629,1,https://aclanthology.org/2022.wmt-1.47/
+https://aclanthology.org/2022.woah-1.14,True,DeTox (German Offensive Language & Conversation Analysis),1,DeTox-dataset,9598,1,https://aclanthology.org/2022.woah-1.14.pdf
+https://aclanthology.org/2023.acl-long.115,True,BIG-C,1,BIG-C,9304,1,https://aclanthology.org/2023.acl-long.115.pdf
+https://aclanthology.org/2023.acl-long.165,True,MM-Sum,6,MM-Sum,9313,1,https://aclanthology.org/2023.acl-long.165/
+https://aclanthology.org/2023.acl-long.189,True,MPC HAT,1,MPC HAT,9322,1,https://aclanthology.org/2023.acl-long.189/
+https://aclanthology.org/2023.acl-long.461,True,MAD-TSC,1,MAD-TSC,9390,1,https://aclanthology.org/2023.acl-long.461/
+https://aclanthology.org/2023.acl-long.609,True,MasakhaPOS; MasakhaPOS (AfricaPOS / MasakhaPOS); hausa-pos-tagger-afroxlmr,8,MasakhaPOS,9440,1,https://aclanthology.org/2023.acl-long.609/
+https://aclanthology.org/2023.acl-long.61,True,Glot500,1,Glot500-c,9295,1,https://aclanthology.org/2023.acl-long.61.pdf
+https://aclanthology.org/2023.acl-long.661,True,Tigrinya-SQuAD,1,TiQuAD,9455,1,https://aclanthology.org/2023.acl-long.661.pdf
+https://aclanthology.org/2023.acl-short.85,True,NollySenti,1,NollySenti,9547,1,https://aclanthology.org/2023.acl-short.85.pdf
+https://aclanthology.org/2023.arabicnlp-1.62,True,TWT-2023,1,TWT-2023,9250,1,https://aclanthology.org/2023.arabicnlp-1.62/
+https://aclanthology.org/2023.arabicnlp-1.64,True,NADI-2023,1,NADI-2023,9251,1,https://aclanthology.org/2023.arabicnlp-1.64/
+https://aclanthology.org/2023.arabicnlp-1.8,True,LANS,1,LANS,9230,1,https://aclanthology.org/2023.arabicnlp-1.8/
+https://aclanthology.org/2023.at4ssl-1.5,True,BSL-Hansard,1,BSL-Hansard,9218,1,https://aclanthology.org/2023.at4ssl-1.5.pdf
+https://aclanthology.org/2023.emnlp-industry.25,True,MuSR,1,MuSR,8916,1,https://aclanthology.org/2023.emnlp-industry.25/
+https://aclanthology.org/2023.emnlp-main.311,True,Folk Tales Dataset,1,Folk Tales Dataset,8672,1,https://aclanthology.org/2023.emnlp-main.311/
+https://aclanthology.org/2023.emnlp-main.462,True,Somali Information Retrieval Corpus,1,Somali Information Retrieval Corpus,8720,1,https://aclanthology.org/2023.emnlp-main.462.pdf
+https://aclanthology.org/2023.emnlp-main.506,True,SuperLim,2,Superlim,8732,1,https://aclanthology.org/2023.emnlp-main.506/
+https://aclanthology.org/2023.emnlp-main.862,True,AfriSenti,2,AfriSenti,8835,1,https://aclanthology.org/2023.emnlp-main.862.pdf
+https://aclanthology.org/2023.fieldmatters-1.9,True,Nen Corpus,1,Nen Corpus,8581,1,https://aclanthology.org/2023.fieldmatters-1.9/
+https://aclanthology.org/2023.findings-acl.427,True,LR-Sum,1,LR-Sum,8199,1,https://aclanthology.org/2023.findings-acl.427/
+https://aclanthology.org/2023.findings-acl.528,True,Amazon Reviews,1,Amazon Reviews,8218,1,https://aclanthology.org/2023.findings-acl.528/
+https://aclanthology.org/2023.findings-acl.646,True,HausaVQA,1,HaVQA,8248,1,https://aclanthology.org/2023.findings-acl.646.pdf
+https://aclanthology.org/2023.findings-emnlp.465,True,LAION-5B,1,LAION-5B,8424,1,https://aclanthology.org/2023.findings-emnlp.465/
+https://aclanthology.org/2023.findings-emnlp.664,True,JWSign,17,JWSign,8478,1,https://aclanthology.org/2023.findings-emnlp.664.pdf
+https://aclanthology.org/2023.findings-emnlp.848,True,LABDet Bias Probing Dataset,1,LABDet,8524,1,https://aclanthology.org/2023.findings-emnlp.848.pdf
+https://aclanthology.org/2023.jeptalnrecital-projet.4,True,TEMITALC,1,TEMITALC,7958,1,https://aclanthology.org/2023.jeptalnrecital-projet.4/
+https://aclanthology.org/2023.mtsummit-coco4mt.2,True,Urdu-English Religious Domain Parallel Corpus,1,Urdu-English Religious Domain Parallel Corpus,7882,1,https://aclanthology.org/2023.mtsummit-coco4mt.2/
+https://aclanthology.org/2023.nllp-1.24,True,AsyLex,1,AsyLex,7858,1,https://aclanthology.org/2023.nllp-1.24/
+https://aclanthology.org/2023.nlp4tia-1.6,True,sba-Fr Dataset,1,sba-Fr Dataset,7839,1,https://aclanthology.org/2023.nlp4tia-1.6/
+https://aclanthology.org/2023.nodalida-1.17,True,NorQuAD,1,NorQuAD,7809,1,https://aclanthology.org/2023.nodalida-1.17.pdf
+https://aclanthology.org/2023.nodalida-1.34,True,Danish Sentiment Analysis; MeMo-Dataset-WSD,2,Annotated Sentiment Dataset of Historical Literary Danish and Norwegian,7816,1,https://aclanthology.org/2023.nodalida-1.34.pdf
+https://aclanthology.org/2023.nodalida-1.61,True,NorBench,1,NorBench,7823,1,https://aclanthology.org/2023.nodalida-1.61.pdf
+https://aclanthology.org/2023.ranlp-1.11,True,ConfliBERT-Arabic,1,ConfliBERT-Arabic,7754,1,https://aclanthology.org/2023.ranlp-1.11/
+https://aclanthology.org/2023.sigmorphon-1.8,True,JAMBU,2,JAMBU,7652,1,https://aclanthology.org/2023.sigmorphon-1.8/
+https://aclanthology.org/2023.vardial-1.11,True,BENCHi´c-lang,1,BENCHi´c-lang,7574,1,https://aclanthology.org/2023.vardial-1.11/
+https://aclanthology.org/2023.wassa-1.24,True,LetHerLearn,1,LetHerLearn,7561,1,https://aclanthology.org/2023.wassa-1.24.pdf
+https://aclanthology.org/2023.wassa-1.6,True,BanglaSocialHealth,1,BanglaSocialHealth,7551,1,https://aclanthology.org/2023.wassa-1.6/
+https://aclanthology.org/2024.acl-long.15,True,RoNLI,1,RoNLI,7204,1,https://aclanthology.org/2024.acl-long.15/
+https://aclanthology.org/2024.acl-long.44,True,Belebele,2,BELEBELE,7214,1,https://aclanthology.org/2024.acl-long.44.pdf
+https://aclanthology.org/2024.acl-long.454,True,BHM (Bengali Hateful Memes),1,BHM (Bengali Hateful Memes),7340,1,https://aclanthology.org/2024.acl-long.454/
+https://aclanthology.org/2024.acl-long.620,True,Aya Dataset,1,Aya Dataset,7394,1,https://aclanthology.org/2024.acl-long.620/
+https://aclanthology.org/2024.acl-long.691,True,Cheetah,14,Cheetah,7421,1,https://aclanthology.org/2024.acl-long.691/
+https://aclanthology.org/2024.acl-short.75,True,SeeGULL Multilingual,1,SeeGULL Multilingual,7493,1,https://aclanthology.org/2024.acl-short.75/
+https://aclanthology.org/2024.acl-srw.1,True,Feriji,1,Feriji Dataset,7499,1,https://aclanthology.org/2024.acl-srw.1.pdf
+https://aclanthology.org/2024.americasnlp-1.8,True,Morphological Tagging in Bribri Using Universal Dependency Features,1,Bribri Dependency Treebank,7181,1,https://aclanthology.org/2024.americasnlp-1.8.pdf
+https://aclanthology.org/2024.arabicnlp-1.3,True,Authority-Rumor-Evidence Dataset (AuRED),1,Authority-Rumor-Evidence Dataset (AuRED),7132,1,https://aclanthology.org/2024.arabicnlp-1.3/
+https://aclanthology.org/2024.arabicnlp-1.36,True,ArBanking77,1,ArBanking77,7152,1,https://aclanthology.org/2024.arabicnlp-1.36/
+https://aclanthology.org/2024.clicit-1.24,True,Chronos,1,Chronos,6957,1,https://aclanthology.org/2024.clicit-1.24/
+https://aclanthology.org/2024.determit-1.10,True,DARES,1,DARES,6855,1,https://aclanthology.org/2024.determit-1.10/
+https://aclanthology.org/2024.eacl-long.100,True,Karde¸ s-NLU,1,Karde¸ s-NLU,6793,1,https://aclanthology.org/2024.eacl-long.100/
+https://aclanthology.org/2024.eacl-srw.3,True,KIND Dataset,3,KIND Dataset,6829,1,https://aclanthology.org/2024.eacl-srw.3/
+https://aclanthology.org/2024.emnlp-main.236,True,Multilingual Language Modeling Dataset,1,Multilingual Language Modeling Dataset,6437,1,https://aclanthology.org/2024.emnlp-main.236/
+https://aclanthology.org/2024.emnlp-main.317,True,NLEBench,1,NLEBench,6464,1,https://aclanthology.org/2024.emnlp-main.317.pdf
+https://aclanthology.org/2024.emnlp-main.448,True,5Pils,1,5Pils,6498,1,https://aclanthology.org/2024.emnlp-main.448/
+https://aclanthology.org/2024.emnlp-main.661,True,Proverbs.GR,2,Greek Proverb Atlas,6551,1,https://aclanthology.org/2024.emnlp-main.661/
+https://aclanthology.org/2024.emnlp-main.824,True,Emakhuwa NLP,1,Emakhuwa NLP Resources,6589,1,https://aclanthology.org/2024.emnlp-main.824.pdf
+https://aclanthology.org/2024.findings-acl.334,True,ArabicMMLU,3,ArabicMMLU,5864,1,https://aclanthology.org/2024.findings-acl.334.pdf
+https://aclanthology.org/2024.findings-acl.471,True,NaturalCodeBench,1,NATURAL CODE BENCH (NCB),5911,1,https://aclanthology.org/2024.findings-acl.471.pdf
+https://aclanthology.org/2024.findings-acl.764,True,CIDAR,3,CIDAR,5996,1,https://aclanthology.org/2024.findings-acl.764/
+https://aclanthology.org/2024.findings-acl.781,True,AfroLingu-MT,2,AfroLingu-MT,6005,1,https://aclanthology.org/2024.findings-acl.781/
+https://aclanthology.org/2024.findings-eacl.142,True,Afrispeech-200,1,Afrispeech-200,5682,1,https://aclanthology.org/2024.findings-eacl.142/
+https://aclanthology.org/2024.findings-eacl.21,True,OYXOY,1,OYXOY,5654,1,https://aclanthology.org/2024.findings-eacl.21/
+https://aclanthology.org/2024.findings-emnlp.743,True,HUMVI,4,HUMVI,6292,1,https://aclanthology.org/2024.findings-emnlp.743/
+https://aclanthology.org/2024.findings-naacl.213,True,TeDDi,1,TeDDi,5739,1,https://aclanthology.org/2024.findings-naacl.213/
+https://aclanthology.org/2024.findings-naacl.274,True,Babel-670,2,Babel-670,5761,1,https://aclanthology.org/2024.findings-naacl.274/
+https://aclanthology.org/2024.humeval-1.4,True,BCMS,1,BCMS,5609,1,https://aclanthology.org/2024.humeval-1.4/
+https://aclanthology.org/2024.law-1.14,True,ShiKomori,1,ShiKomori,5501,1,https://aclanthology.org/2024.law-1.14/
+https://aclanthology.org/2024.loresmt-1.19,True,Rosetta Balcanica,3,Rosetta Balcanica,5488,1,https://aclanthology.org/2024.loresmt-1.19/
+https://aclanthology.org/2024.lrec-main.1051,True,myMediCon Burmese Medical Speech Corpus,1,myMediCon,5256,1,https://aclanthology.org/2024.lrec-main.1051/
+https://aclanthology.org/2024.lrec-main.1298,True,SHSC (Slovak Hate Speech Corpus),1,SlovakSum,5372,1,https://aclanthology.org/2024.lrec-main.1298/
+https://aclanthology.org/2024.lrec-main.1357,True,TARIC-SLU,1,TARIC-SLU,5402,1,https://aclanthology.org/2024.lrec-main.1357.pdf
+https://aclanthology.org/2024.lrec-main.1378,True,AIKIA,1,AIKIA,5412,1,https://aclanthology.org/2024.lrec-main.1378.pdf
+https://aclanthology.org/2024.lrec-main.1459,True,Shahnameh Parallel Corpus,1,Shahnameh Parallel Corpus,5444,1,https://aclanthology.org/2024.lrec-main.1459/
+https://aclanthology.org/2024.lrec-main.289,True,Depression Tweets,1,Depression Tweets,4918,1,https://aclanthology.org/2024.lrec-main.289/
+https://aclanthology.org/2024.lrec-main.291,True,CLASSLA-web,2,CLASSLA-web,4920,1,https://aclanthology.org/2024.lrec-main.291/
+https://aclanthology.org/2024.lrec-main.390,True,Tetun Text Corpus,1,Tetun Text Corpus,4974,1,https://aclanthology.org/2024.lrec-main.390/
+https://aclanthology.org/2024.lrec-main.436,True,DiaSet,1,DiaSet,4994,1,https://aclanthology.org/2024.lrec-main.436.pdf
+https://aclanthology.org/2024.lrec-main.447,True,DISRPT,1,DISRPT,4997,1,https://aclanthology.org/2024.lrec-main.447/
+https://aclanthology.org/2024.lrec-main.550,True,EPOQUE,1,EPOQUE,5026,1,https://aclanthology.org/2024.lrec-main.550/
+https://aclanthology.org/2024.lrec-main.638,True,Fongbe to French Speech Translation Corpus (FFSTC),1,Fongbe to French Speech Translation Corpus (FFSTC),5054,1,https://aclanthology.org/2024.lrec-main.638/
+https://aclanthology.org/2024.lrec-main.700,True,GreekSum,1,GreekSUM,5089,1,https://aclanthology.org/2024.lrec-main.700.pdf
+https://aclanthology.org/2024.lrec-main.812,True,YorùbáVoice,1,ÌròyìnSpeech,5132,1,https://aclanthology.org/2024.lrec-main.812/
+https://aclanthology.org/2024.mrl-1.18,True,mLongRR,1,mLongRR,4740,1,https://aclanthology.org/2024.mrl-1.18.pdf
+https://aclanthology.org/2024.naacl-long.170,True,Kreyòl-MT,8,Kreyòl-MT,4587,1,https://aclanthology.org/2024.naacl-long.170/
+https://aclanthology.org/2024.naacl-long.204,True,CEREAL,1,CEREAL,4597,1,https://aclanthology.org/2024.naacl-long.204/
+https://aclanthology.org/2024.naacl-long.248,True,GAHD,2,GAHD,4609,1,https://aclanthology.org/2024.naacl-long.248.pdf
+https://aclanthology.org/2024.naacl-long.355,True,GeoMLaMA,1,GeoMLaMA,4644,1,https://aclanthology.org/2024.naacl-long.355/
+https://aclanthology.org/2024.naacl-short.70,True,GuyLingo,1,GuyLingo,4698,1,https://aclanthology.org/2024.naacl-short.70/
+https://aclanthology.org/2024.nllp-1.7,True,CLC-UKET (UK Employment Tribunal benchmark),1,CLC-UKET,4529,1,https://aclanthology.org/2024.nllp-1.7.pdf
+https://aclanthology.org/2024.nlp4dh-1.13,True,LatamXIX,1,LatamXIX,4510,1,https://aclanthology.org/2024.nlp4dh-1.13/
+https://aclanthology.org/2024.nlp4dh-1.18,True,Molyé corpus,1,Molyé corpus,4512,1,https://aclanthology.org/2024.nlp4dh-1.18/
+https://aclanthology.org/2024.nlp4dh-1.49,True,Corpus for Bias Verification in LLMs,1,Corpus for Bias Verification in LLMs,4525,1,https://aclanthology.org/2024.nlp4dh-1.49/
+https://aclanthology.org/2024.nlp4pi-1.25,True,Neural News Detection Dataset,1,Neural News Detection Dataset,4487,1,https://aclanthology.org/2024.nlp4pi-1.25/
+https://aclanthology.org/2024.parlaclarin-1.14,True,ParlaMint,1,ParlaMint,4430,1,https://aclanthology.org/2024.parlaclarin-1.14/
+https://aclanthology.org/2024.parlaclarin-1.18,True,ParlaMint 4.0,4,ParlaMint 4.0,4434,1,https://aclanthology.org/2024.parlaclarin-1.18/
+https://aclanthology.org/2024.semeval-1.69,True,M4,1,M4,4331,1,https://aclanthology.org/2024.semeval-1.69/
+https://aclanthology.org/2024.sigtyp-1.14,True,MODE LING,1,MODE LING,4280,1,https://aclanthology.org/2024.sigtyp-1.14/
+https://aclanthology.org/2024.sigtyp-1.17,True,SIGTYP Shared Task on Word Embedding Evaluation for Ancient and Historical Languages,1,SIGTYP Shared Task on Word Embedding Evaluation for Ancient and Historical Languages,4281,1,https://aclanthology.org/2024.sigtyp-1.17/
+https://aclanthology.org/2024.sigul-1.15,True,HeLI-OTS,1,HeLI-OTS,4259,1,https://aclanthology.org/2024.sigul-1.15/
+https://aclanthology.org/2024.sigul-1.22,True,Labadain-30k+,1,Labadain-30k+,4261,1,https://aclanthology.org/2024.sigul-1.22/
+https://aclanthology.org/2024.tacl-1.76,True,ProbVAA,1,ProbVAA,4226,1,https://aclanthology.org/2024.tacl-1.76/
+https://aclanthology.org/2024.tlt-1.4,True,LuxBank,2,LuxBank,4202,1,https://aclanthology.org/2024.tlt-1.4.pdf
+https://aclanthology.org/2024.vardial-1.22,True,Discriminating Similar Languages Corpus Collection (DSLCC),1,Discriminating Similar Languages Corpus Collection (DSLCC),4162,1,https://aclanthology.org/2024.vardial-1.22/
+https://aclanthology.org/2024.vardial-1.9,True,NoMusic,1,NoMusic,4160,1,https://aclanthology.org/2024.vardial-1.9.pdf
+https://aclanthology.org/2024.wassa-1.19,True,RideKE: Kenyan Code-Switched Ride-Hailing Dataset,2,RideKE,4149,1,https://aclanthology.org/2024.wassa-1.19.pdf
+https://aclanthology.org/2024.wmt-1.45,True,Emakhuwa-FLORES (FLORES+ Portuguese–Emakhuwa Evaluation Set),1,Emakhuwa-FLORES,4105,1,https://aclanthology.org/2024.wmt-1.45.pdf
+https://aclanthology.org/2024.wmt-1.50,True,SEED dataset,1,SEED dataset,4110,1,https://aclanthology.org/2024.wmt-1.50/
+https://aclanthology.org/2024.woah-1.3,True,EkoHate,4,EKOHATE,4070,1,https://aclanthology.org/2024.woah-1.3/
+https://aclanthology.org/2025.acl-demo.34,True,BabyLM,1,BabyLM,4003,1,https://aclanthology.org/2025.acl-demo.34/
+https://aclanthology.org/2025.acl-long.1112,True,TUMLU,1,TUMLU,3809,1,https://aclanthology.org/2025.acl-long.1112/
+https://aclanthology.org/2025.acl-long.1247,True,CULTURAL BENCH,1,CULTURAL BENCH,3857,1,https://aclanthology.org/2025.acl-long.1247/
+https://aclanthology.org/2025.acl-long.1465,True,Indic-Bias,2,INDIC-BIAS,3922,1,https://aclanthology.org/2025.acl-long.1465.pdf
+https://aclanthology.org/2025.acl-long.1579,True,PALM,11,PALM,3962,1,https://aclanthology.org/2025.acl-long.1579.pdf
+https://aclanthology.org/2025.acl-long.578,True,CALMQA,9,CALMQA,3630,1,https://aclanthology.org/2025.acl-long.578/
+https://aclanthology.org/2025.acl-long.698,True,MaXIFE,1,MaXIFE,3668,1,https://aclanthology.org/2025.acl-long.698/
+https://aclanthology.org/2025.acl-long.916,True,SEA-VL,2,SEA-VL,3738,1,https://aclanthology.org/2025.acl-long.916/
+https://aclanthology.org/2025.africanlp-1.8,True,English-Kpelle Dataset; English-Kpelle-Corpus; English–Kpelle Corpus,4,English-Kpelle Dataset,3456,1,https://aclanthology.org/2025.africanlp-1.8/
+https://aclanthology.org/2025.arabicnlp-main.22,True,TEDxTN,1,TEDxTN,3401,1,https://aclanthology.org/2025.arabicnlp-main.22.pdf
+https://aclanthology.org/2025.argmining-1.20,True,ArgUNSC,1,ArgUNSC,3384,1,https://aclanthology.org/2025.argmining-1.20/
+https://aclanthology.org/2025.bea-1.59,True,GermDetect,1,GermDetect,3330,1,https://aclanthology.org/2025.bea-1.59/
+https://aclanthology.org/2025.bea-1.67,True,Classroom Observation Feedback Dataset,1,Classroom Observation Feedback Dataset,3333,1,https://aclanthology.org/2025.bea-1.67/
+https://aclanthology.org/2025.bionlp-1.9,True,61 biomedical corpora,1,61 biomedical corpora,3293,1,https://aclanthology.org/2025.bionlp-1.9/
+https://aclanthology.org/2025.bsnlp-1.1,True,ROG dataset,1,ROG dataset,3269,1,https://aclanthology.org/2025.bsnlp-1.1/
+https://aclanthology.org/2025.bsnlp-1.19,True,SlavicNLP 2025 Shared Task Dataset,1,SlavicNLP 2025 Shared Task Dataset,3279,1,https://aclanthology.org/2025.bsnlp-1.19/
+https://aclanthology.org/2025.bsnlp-1.20,True,Detection and Classification of Persuasion Techniques in Slavic Languages,1,Detection and Classification of Persuasion Techniques in Slavic Languages,3280,1,https://aclanthology.org/2025.bsnlp-1.20/
+https://aclanthology.org/2025.c3nlp-1.5,True,DAKULTUR,1,DAKULTUR,3260,1,https://aclanthology.org/2025.c3nlp-1.5/
+https://aclanthology.org/2025.chipsal-1.10,True,mGAP,1,mGAP,3242,1,https://aclanthology.org/2025.chipsal-1.10/
+https://aclanthology.org/2025.coling-main.237,True,EthioEmo,2,EthioEmo,2999,1,https://aclanthology.org/2025.coling-main.237.pdf
+https://aclanthology.org/2025.coling-main.283,True,AraDiCE,2,AraDiCE,3009,1,https://aclanthology.org/2025.coling-main.283.pdf
+https://aclanthology.org/2025.coling-main.387,True,Uchaguzi-2022: Kenyan Election Citizen Reports (Ushahidi),1,Uchaguzi-2022,3040,1,https://aclanthology.org/2025.coling-main.387.pdf
+https://aclanthology.org/2025.coling-main.90,True,MeMo corpus,1,MeMo corpus,2969,1,https://aclanthology.org/2025.coling-main.90/
+https://aclanthology.org/2025.coling-main.99,True,Conflict Events in the Horn of Africa region (CEHA),1,Conflict Events in the Horn of Africa region (CEHA),2970,1,https://aclanthology.org/2025.coling-main.99/
+https://aclanthology.org/2025.computel-main.13,True,AILLA-OCR,2,AILLA-OCR,2944,1,https://aclanthology.org/2025.computel-main.13/
+https://aclanthology.org/2025.computel-main.5,True,Atlas Linguistique d’Haïti,1,Atlas Linguistique d’Haïti,2943,1,https://aclanthology.org/2025.computel-main.5/
+https://aclanthology.org/2025.depling-1.9,True,mSUD_Northwest_Gbaya-Autogramm,1,mSUD_Northwest_Gbaya-Autogramm,2910,1,https://aclanthology.org/2025.depling-1.9/
+https://aclanthology.org/2025.disrpt-1.1,True,DISRPT 2025,2,DISRPT 2025,2902,1,https://aclanthology.org/2025.disrpt-1.1/
+https://aclanthology.org/2025.emnlp-main.1044,True,BORS CH,4,BORS CH,2536,1,https://aclanthology.org/2025.emnlp-main.1044/
+https://aclanthology.org/2025.emnlp-main.1335,True,SocioBench,3,SocioBench,2622,1,https://aclanthology.org/2025.emnlp-main.1335/
+https://aclanthology.org/2025.emnlp-main.1412,True,MessIRve,8,MessIRve,2644,1,https://aclanthology.org/2025.emnlp-main.1412/
+https://aclanthology.org/2025.emnlp-main.1472,True,VisText,1,VisText,2664,1,https://aclanthology.org/2025.emnlp-main.1472/
+https://aclanthology.org/2025.emnlp-main.1535,True,Plutus-ben,1,Plutus-ben,2679,1,https://aclanthology.org/2025.emnlp-main.1535.pdf
+https://aclanthology.org/2025.emnlp-main.175,True,WangchanThaiInstruct,1,WangchanThaiInstruct,2293,1,https://aclanthology.org/2025.emnlp-main.175.pdf
+https://aclanthology.org/2025.emnlp-main.1756,True,TounsiBench,1,Tunisian Arabic Instructions Dataset,2766,1,https://aclanthology.org/2025.emnlp-main.1756.pdf
+https://aclanthology.org/2025.emnlp-main.373,True,Phonetics-Semantics Evaluation Testbed (PSET),1,Phonetics-Semantics Evaluation Testbed (PSET),2346,1,https://aclanthology.org/2025.emnlp-main.373/
+https://aclanthology.org/2025.emnlp-main.697,True,COCHRANE-SECTIONS,1,COCHRANE-SECTIONS,2434,1,https://aclanthology.org/2025.emnlp-main.697/
+https://aclanthology.org/2025.emnlp-main.834,True,TurBLiMP,1,TurBLiMP,2475,1,https://aclanthology.org/2025.emnlp-main.834/
+https://aclanthology.org/2025.fieldmatters-1.4,True,KazBench-KK,1,KazBench-KK,2223,1,https://aclanthology.org/2025.fieldmatters-1.4/
+https://aclanthology.org/2025.findings-acl.1042,True,KE-MHISTO,1,KE-MHISTO,1676,1,https://aclanthology.org/2025.findings-acl.1042/
+https://aclanthology.org/2025.findings-acl.1122,True,Chumor 2.0,1,Chumor,1697,1,https://aclanthology.org/2025.findings-acl.1122/
+https://aclanthology.org/2025.findings-acl.1325,True,LEMONADE,1,LEMONADE,1760,1,https://aclanthology.org/2025.findings-acl.1325.pdf
+https://aclanthology.org/2025.findings-acl.1371,True,SKLEP,1,skLEP,1771,1,https://aclanthology.org/2025.findings-acl.1371/
+https://aclanthology.org/2025.findings-acl.180,True,mOSCAR,3,mOSCAR,1400,1,https://aclanthology.org/2025.findings-acl.180/
+https://aclanthology.org/2025.findings-acl.181,True,NorEval,1,NorEval,1401,1,https://aclanthology.org/2025.findings-acl.181.pdf
+https://aclanthology.org/2025.findings-acl.219,True,BORD IRL INES,1,BORD IRL INES,1414,1,https://aclanthology.org/2025.findings-acl.219/
+https://aclanthology.org/2025.findings-acl.382,True,Konooz,1,Konooz,1462,1,https://aclanthology.org/2025.findings-acl.382.pdf
+https://aclanthology.org/2025.findings-acl.507,True,Qor´gau,1,Qor´gau,1499,1,https://aclanthology.org/2025.findings-acl.507/
+https://aclanthology.org/2025.findings-acl.799,True,MAD-TSC,1,MAD-TSC,1584,1,https://aclanthology.org/2025.findings-acl.799/
+https://aclanthology.org/2025.findings-acl.883,True,Political Compass Test (PCT),3,Political Compass Test (PCT),1620,1,https://aclanthology.org/2025.findings-acl.883/
+https://aclanthology.org/2025.findings-acl.891,True,ExpliCa,1,ExpliCa,1627,1,https://aclanthology.org/2025.findings-acl.891/
+https://aclanthology.org/2025.findings-emnlp.107,True,EMOBENCH -UA,1,EMOBENCH -UA,1806,1,https://aclanthology.org/2025.findings-emnlp.107/
+https://aclanthology.org/2025.findings-emnlp.1196,True,PhoPile,1,PhoPile,2114,1,https://aclanthology.org/2025.findings-emnlp.1196/
+https://aclanthology.org/2025.findings-emnlp.1254,True,Pearl,10,Pearl,2135,1,https://aclanthology.org/2025.findings-emnlp.1254/
+https://aclanthology.org/2025.findings-emnlp.1393,True,HATECAT-TR,1,HATECAT-TR,2166,1,https://aclanthology.org/2025.findings-emnlp.1393/
+https://aclanthology.org/2025.findings-emnlp.247,True,ArabCulture,1,ArabCulture,1847,1,https://aclanthology.org/2025.findings-emnlp.247/
+https://aclanthology.org/2025.findings-emnlp.471,True,TR-MTEB,1,TR-MTEB,1902,1,https://aclanthology.org/2025.findings-emnlp.471/
+https://aclanthology.org/2025.findings-emnlp.490,True,HARE,1,HARE,1911,1,https://aclanthology.org/2025.findings-emnlp.490/
+https://aclanthology.org/2025.findings-emnlp.599,True,MultiClaimNet,1,MultiClaimNet,1950,1,https://aclanthology.org/2025.findings-emnlp.599/
+https://aclanthology.org/2025.findings-emnlp.640,True,MTPA,1,MTPA,1966,1,https://aclanthology.org/2025.findings-emnlp.640/
+https://aclanthology.org/2025.findings-emnlp.828,True,Vikidia Sentences Dataset,1,Vikidia Sentences Dataset,2013,1,https://aclanthology.org/2025.findings-emnlp.828/
+https://aclanthology.org/2025.findings-emnlp.842,True,AfriSocial,1,AfriSocial,2019,1,https://aclanthology.org/2025.findings-emnlp.842/
+https://aclanthology.org/2025.findings-emnlp.913,True,ENDIVE,1,ENDIVE,2043,1,https://aclanthology.org/2025.findings-emnlp.913/
+https://aclanthology.org/2025.findings-naacl.175,True,HateDefCon,18,HateDefCon,1249,1,https://aclanthology.org/2025.findings-naacl.175/
+https://aclanthology.org/2025.findings-naacl.263,True,ArabicMTEB,2,ArabicMTEB,1282,1,https://aclanthology.org/2025.findings-naacl.263/
+https://aclanthology.org/2025.gebnlp-1.18,True,Multilingual Intersectional Bias Benchmark,1,Multilingual Intersectional Bias Benchmark,1165,1,https://aclanthology.org/2025.gebnlp-1.18/
+https://aclanthology.org/2025.iwslt-1.13,True,FFSTC 2,1,FFSTC 2,971,1,https://aclanthology.org/2025.iwslt-1.13/
+https://aclanthology.org/2025.jeptalnrecital-industrielle.3,True,Molyé,1,Molyé,956,1,https://aclanthology.org/2025.jeptalnrecital-industrielle.3/
+https://aclanthology.org/2025.llmsec-1.6,True,Comprehensive Multilingual Safety Dataset,1,Comprehensive Multilingual Safety Dataset,881,1,https://aclanthology.org/2025.llmsec-1.6/
+https://aclanthology.org/2025.loresmt-1.17,True,Guinea-Bissau Creole Translation Dataset,1,Guinea-Bissau Creole Translation Dataset,856,1,https://aclanthology.org/2025.loresmt-1.17/
+https://aclanthology.org/2025.loresmt-1.3,True,WMT22 dataset,1,WMT22 dataset,848,1,https://aclanthology.org/2025.loresmt-1.3/
+https://aclanthology.org/2025.loresmt-1.7,True,tetun.org server logs,1,tetun.org server logs,852,1,https://aclanthology.org/2025.loresmt-1.7/
+https://aclanthology.org/2025.luhme-1.7,True,Synthetic Preference Dataset for English to Slovene Translation,1,Synthetic Preference Dataset for English to Slovene Translation,822,1,https://aclanthology.org/2025.luhme-1.7/
+https://aclanthology.org/2025.mtsummit-1.9,True,OJ4OCRMT,1,OJ4OCRMT,781,1,https://aclanthology.org/2025.mtsummit-1.9/
+https://aclanthology.org/2025.naacl-long.303,True,BIGGEN BENCH,1,BIGGEN BENCH,603,1,https://aclanthology.org/2025.naacl-long.303/
+https://aclanthology.org/2025.naacl-long.338,True,Marothodi,1,Marothodi,618,1,https://aclanthology.org/2025.naacl-long.338/
+https://aclanthology.org/2025.naacl-long.339,True,LegalViz,2,LegalViz,619,1,https://aclanthology.org/2025.naacl-long.339/
+https://aclanthology.org/2025.naacl-long.478,True,Crossmodal3600 (XM3600),1,Crossmodal3600 (XM3600),655,1,https://aclanthology.org/2025.naacl-long.478/
+https://aclanthology.org/2025.naacl-long.600,True,BiasSHADES; SHADES,11,SHADES,694,1,https://aclanthology.org/2025.naacl-long.600.pdf
+https://aclanthology.org/2025.naacl-long.602,True,bayelemabaga,1,Bayelemabaga,695,1,https://aclanthology.org/2025.naacl-long.602.pdf
+https://aclanthology.org/2025.naacl-long.613,True,Jawaher,1,Jawaher,698,1,https://aclanthology.org/2025.naacl-long.613/
+https://aclanthology.org/2025.naacl-long.68,True,ITALIC,1,ITALIC,542,1,https://aclanthology.org/2025.naacl-long.68/
+https://aclanthology.org/2025.naacl-srw.7,True,Kazakh-Russian Code-Switching dataset (KRCS),1,Kazakh-Russian Code-Switching dataset (KRCS),751,1,https://aclanthology.org/2025.naacl-srw.7/
+https://aclanthology.org/2025.nakbanlp-1.6,True,NTCC,1,Nakba Topic Classification Corpus (NTCC),520,1,https://aclanthology.org/2025.nakbanlp-1.6.pdf
+https://aclanthology.org/2025.nodalida-1.43,True,NRK-Quiz-QA; NorCommonSenseQA; NorOpenBookQA; NorTruthfulQA-Gen; NorTruthfulQA-MC,6,NorOpenBookQA,438,1,https://aclanthology.org/2025.nodalida-1.43.pdf
+https://aclanthology.org/2025.nodalida-1.73,True,NorSumm,1,NorSumm,446,1,https://aclanthology.org/2025.nodalida-1.73.pdf
+https://aclanthology.org/2025.ranlp-1.145,True,Bartangi Language Corpus,1,Bartangi Language Corpus,385,1,https://aclanthology.org/2025.ranlp-1.145/
+https://aclanthology.org/2025.resourceful-1.31,True,Novgorodian Birchbark Letters,1,Novgorodian Birchbark Letters,320,1,https://aclanthology.org/2025.resourceful-1.31/
+https://aclanthology.org/2025.wmt-1.17,True,DocHPLT,1,DocHPLT,40,1,https://aclanthology.org/2025.wmt-1.17/
+https://aclanthology.org/2025.wmt-1.65,True,SSA-MTE,1,SSA-MTE,53,1,https://aclanthology.org/2025.wmt-1.65.pdf
+https://aclanthology.org/2025.wmt-1.82,True,FLORES + and OLDI Seed,1,FLORES + and OLDI Seed,58,1,https://aclanthology.org/2025.wmt-1.82/
+https://aclanthology.org/2025.wmt-1.85,True,SMOL,1,SMOL,61,1,https://aclanthology.org/2025.wmt-1.85/
+https://aclanthology.org/2025.wmt-1.93,True,Belizean Kriol-English Bitext,1,Belizean Kriol and French Guianese Creole MT Datasets,65,1,https://aclanthology.org/2025.wmt-1.93/
+https://aclanthology.org/2025.woah-1.23,True,Online Hostility Towards UK MPs,2,Hostility Detection Dataset,23,1,https://aclanthology.org/2025.woah-1.23/
+https://aclanthology.org/c16-1322,True,TweetGeo,1,Twitter Data from Former Yugoslavia,17765,1,https://aclanthology.org/C16-1322/
+https://aclanthology.org/d18-1269,True,XNLI,2,XNLI,16677,1,https://aclanthology.org/D18-1269.pdf
+https://aclanthology.org/d18-1545,True,Universal Dependencies v2.1,1,Universal Dependencies v2.1,16723,1,https://aclanthology.org/D18-1545/
+https://aclanthology.org/d19-1382,True,PAWS-X; PAWS-X (dataset repo),2,PAWS-X,15987,1,https://aclanthology.org/D19-1382/
+https://aclanthology.org/e17-1046,True,Multi-target UK election Twitter sentiment corpus,1,UK Election Tweets,17153,1,https://aclanthology.org/E17-1046.pdf
+https://aclanthology.org/l16-1109,True,Phrase Chunkin,1,Annotated Phrase Chunking Data Sets for South African Languages,17382,1,https://aclanthology.org/L16-1109.pdf
+https://aclanthology.org/l16-1249,True,Asian Language Treebank (ALT) – Myanmar Portion,1,Asian Language Treebank (ALT),17457,1,https://aclanthology.org/L16-1249/
+https://aclanthology.org/l16-1515,True,Kru Language Atlas Data,2,Kru Language Atlas Data,17598,1,https://aclanthology.org/L16-1515/
+https://aclanthology.org/l16-1641,True,NOAH's Corpus,1,ArchiMob,17662,1,https://aclanthology.org/L16-1641.pdf
+https://aclanthology.org/l16-1679,True,Gumar Corpus; Gumar-Ngrams,2,Gumar Corpus,17687,1,https://aclanthology.org/L16-1679.pdf
+https://aclanthology.org/p17-1073,True,CDSCorpus,1,Polish evaluation dataset,17053,1,https://aclanthology.org/P17-1073.pdf
+https://aclanthology.org/p19-1068,True,MOROCO: The Moldavian and Romanian Dialectal Corpus,1,Moldavian and Romanian Dialectal Corpus (MOROCO),15621,1,https://aclanthology.org/P19-1068/
+https://aclanthology.org/r19-1023,True,ARAP-Tweet 2.0,2,ARAP-Tweet 2.0,15567,1,https://aclanthology.org/R19-1023/
+https://aclanthology.org/w17-1307,True,TSAC,1,Tunisian Sentiment Analysis Corpus (TSAC),16855,1,https://aclanthology.org/W17-1307.pdf
+https://aclanthology.org/w19-1404,True,"Word Stress Detection Datasets for Russian, Ukrainian, and Belarusian",1,"Word Stress Detection Datasets for Russian, Ukrainian, and Belarusian",15273,1,https://aclanthology.org/W19-1404/
+https://aclanthology.org/w19-3803,True,Twitter Data,1,Twitter Data,15348,1,https://aclanthology.org/W19-3803/
+https://aclanthology.org/w19-4616,True,Jordan Comprehensive Contemporary Arabic Corpus (JCCA),1,Jordan Comprehensive Contemporary Arabic Corpus (JCCA),15401,1,https://aclanthology.org/W19-4616/
+https://aclanthology.org/w19-4619,True,Open Source International Arabic News (OSIAN) corpus,1,Open Source International Arabic News (OSIAN) corpus,15404,1,https://aclanthology.org/W19-4619/
+https://aclanthology.org/w19-6115,True,ParIce (English–Icelandic parallel corpus),1,ParIce,15475,1,https://aclanthology.org/W19-6115.pdf

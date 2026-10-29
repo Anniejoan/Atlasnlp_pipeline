@@ -1,0 +1,157 @@
+| What to preserve             | What we already know                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Frozen source population     | 18,035 paper-level Core records                                                                              |
+| Source file/version          | exact filename used to construct Stage 0                                                                     |
+| Audit unit                   | one paper-level dataset record                                                                               |
+| Stage 0 authoritative fields | `best_country_list_valid`, `producer_country_list`, etc.                                                     |
+| Random seed                  | `20260820`                                                                                                   |
+| Country-present population   | 11,764                                                                                                       |
+| Stage 1 sample               | 400 randomly selected country-present records                                                                |
+| Sampling mechanism           | fixed random number per row → sort → first 400                                                               |
+| Sample composition           | EXACT 241, PARTIAL 87, NONE 68, producer missing 4; multi-country 101                                        |
+| Annotation rubric            | Correct / Inferred / Incorrect, evidence rules, failure codes                                                |
+| Audit workflow               | AI-assisted evidence extraction followed by human verification                                               |
+| Completed audit results      | 128 Correct, 85 Inferred, 187 Incorrect                                                                      |
+| Major diagnosed mechanisms   | affiliation leakage, multi-country over-attribution, upstream provenance confusion, language inference, etc. |
+| Files produced               | sampling frame, 400-row audit CSV, analysis outputs                                                          |
+| Decisions made               | old country field cannot be treated as validated; strict re-extraction needed                                |
+| Future changes               | every subsequent correction/re-extraction should get its own version/date                                    |
+
+
+Finding: 46.8% of the random sample was Incorrect.
+Decision based on finding: do not continue treating 11,764 normalized country assignments as validated content-country records.
+Next intervention: build and validate a stricter provenance-based extractor.
+
+
+
+
+2026-08-XX — Stage 0
+Frozen Core at 18,035 records.
+Defined best_country_list_valid as final existing content-country field.
+Seed = 20260820.
+...
+
+2026-08-XX — Stage 1
+Randomly sampled 400/11,764 country-present records.
+...
+
+2026-08-26 — Stage 1 complete
+Correct = 128/400 (32.0%)
+Inferred = 85/400 (21.3%)
+Incorrect = 187/400 (46.8%)
+...
+Decision: existing automatic country assignments are not reliable enough
+for unrestricted geographic analysis.
+
+
+Also explain why we chose 400 as the number to randomly sample.
+
+Proposed pipeline
+
+                      OLD COUNTRY VALUES HIDDEN
+                                  │
+                                  ▼
+                    Exact target dataset record
+                                  │
+                                  ▼
+                      Full cached paper text
+                                  │
+                                  ▼
+                 Dataset relationship classifier
+                                  │
+                                  ▼
+                   COUNTRY EVIDENCE EXTRACTOR
+                    "find evidence, don't guess"
+                                  │
+                                  ▼
+             candidate assertion for each country
+                                  │
+                                  ▼
+                  INDEPENDENT EVIDENCE VERIFIER
+                                  │
+                  ┌───────────────┼───────────────┐
+                  ▼               ▼               ▼
+             EXPLICIT         INFERRED          REJECT
+                  │               │
+                  └───────┬───────┘
+                          ▼
+                 deterministic Python
+                          │
+             ┌────────────┴────────────┐
+             ▼                         ▼
+       STRICT ANALYSIS          SENSITIVITY
+       explicit only         explicit + inferred
+
+
+To save time; proposed pipeline will take out extra safeguards that can be done without.
+
+| Safeguard                                                       |              Cost in time | Keep?   |
+| --------------------------------------------------------------- | ------------------------: | ------- |
+| Hide old countries and producer countries                       |          essentially zero | **Yes** |
+| Remove/neutralize author affiliations before content extraction |                      tiny | **Yes** |
+| Require evidence for **every individual country**               | zero after implementation | **Yes** |
+| Explicit forbidden-evidence taxonomy                            |                      zero | **Yes** |
+| Independent verifier for candidate countries                    |             API time only | **Yes** |
+| Deterministic final country construction                        |                      zero | **Yes** |
+| Automatically exclude reuse-only rows                           |                      zero | **Yes** |
+| Save raw outputs/version/hash                                   |                      zero | **Yes** |
+| Manually review hundreds of uncertain cases                     |                  enormous | **No**  |
+| Compare multiple models                                         |  expensive/time-consuming | **No**  |
+| Third LLM adjudication pass                                     |               unnecessary | **No**  |
+
+
+The post-audit extractor will first use the this model version gpt-5.4-mini-2026-03-17
+
+filter should follow this 
+
+Initial paper-level candidates
+        ↓
+Dataset relationship check
+        ├── REUSED_EXISTING → excluded
+        ├── AMBIGUOUS / TARGET_NOT_FOUND → excluded
+        └── INTRODUCED / EXTENDED / NEW_COMPILATION → eligible
+                                                    ↓
+                                      represented-country extraction
+                                        ├── EXPLICIT
+                                        ├── INFERRED_ONLY
+                                        └── UNATTRIBUTED
+
+
+Prompt v2.2 frozen after development pilot. 
+On a fixed 50-record development sample from the Stage-1 audit, v2.2 completed 50/50 records with 100% precision among explicit country assertions and no false explicit assignments on reference-empty records. 
+Remaining discrepancies were primarily conservative abstentions, partial country-set recovery, or intentional exclusion of reuse-only records. 
+Because further tuning risked trading precision for recall, v2.2 was frozen for population-wide re-extraction.
+
+
+Population-wide v2.2 re-extraction completed. Of 18,035 original Core candidate records, 18,031 were successfully processed. 
+The corrected relationship and identity checks retained 13,462 records as eligible dataset contributions; 4,071 reuse-only records, 408 target-not-found records, and 90 ambiguous records were excluded. 
+Among eligible records, 2,448 (18.2%) had explicit represented-country evidence, 1,059 (7.9%) had inferred-only geographic evidence, and 9,955 (73.9%) remained unattributed. 
+Primary geographic analyses will use explicit evidence only; explicit+inferred attribution will be reported as a sensitivity analysis. 
+Four processing failures will remain explicitly marked and excluded rather than treated as missing geography.
+After re-extraction, we have the Following;
+
+18,035 candidate paper-level records
+                  │
+                  ▼
+      Is this actually a dataset contribution?
+                  │
+          ┌───────┴────────┐
+          │                │
+    excluded(reuse)     eligible
+        4,569            13,462
+                           │
+                           ▼
+                Is geography defensible?
+                           │
+             ┌─────────────┼──────────────┐
+             │             │              │
+          EXPLICIT      INFERRED      UNATTRIBUTED
+           2,448         1,059          9,955
+
+And there may be a powerful finding hiding in the drop of numbers itself:
+
+Language, author geography, and incidental geographic signals make geographic metadata appear substantially more complete than provenance-supported attribution actually is.
+
+
+Note that EXCLUDED_AMBIGUOUS in the merge report (90) doesn't equal MULTIPLE_DATASETS_AMBIGUOUS relationship count (42) — a 48-record difference. That's not a bug in this script; it's pass-through of an eligibility flag computed upstream in content_country_v2.py (ambiguous country evidence, not just ambiguous dataset match, also excludes a record from primary_eligible), and this script correctly just consumes that flag rather than recomputing it.
+Country normalization QC table (24 rows) is sensible — England/Scotland/Wales→UK, Hong Kong→China, Puerto Rico→US, etc., all consistent with the stated "prior AtlasNLP ontology" convention; ambiguous "Congo" and aggregate "Worldwide"/"Multiple countries" tokens are correctly dropped rather than guessed; explicit evidence correctly outranks inferred when they collapse to the same normalized country.

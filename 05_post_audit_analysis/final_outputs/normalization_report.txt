@@ -1,0 +1,30 @@
+AtlasNLP v2 final normalization report
+======================================
+Original rows: 18,035
+v2 successful rows: 18,031
+Processing failures retained in master: 4
+
+Normalized analytical funnel:
+  Primary eligible: 13,462
+  Explicit: 2,447
+  Inferred only: 1,059
+  Explicit + inferred: 3,506
+  Eligible unattributed: 9,956
+
+Country associations:
+  Explicit associations: 4,421
+  Explicit + inferred associations: 6,001
+
+Language normalization:
+  Existing cleaned language fields reused: yes
+  Rows with canonical language: 16,999
+  Rows without canonical language: 1,036
+  Count mismatches: 0
+
+Country normalization:
+  Canonical ontology size: 197
+  Unique normalized countries observed: 168
+  Unmapped tokens remaining: 0
+  QC transformation/drop rows: 24
+
+Missing v2 record IDs: 513, 1600, 3680, 14504
