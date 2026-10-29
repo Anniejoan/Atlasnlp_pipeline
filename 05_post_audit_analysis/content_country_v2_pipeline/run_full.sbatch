@@ -1,14 +1,14 @@
 #!/bin/bash
 #SBATCH --job-name=atlasnlp_full
-#SBATCH --account=mihalcea0
+#SBATCH --account=<PI_ACCOUNT>
 #SBATCH --partition=standard
 #SBATCH --array=0-31
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=03:00:00
-#SBATCH --output=/scratch/mihalcea_root/mihalcea0/jnwatu/atlasnlp_content_country_v2/logs/full_%A_%a.out
-#SBATCH --error=/scratch/mihalcea_root/mihalcea0/jnwatu/atlasnlp_content_country_v2/logs/full_%A_%a.err
+#SBATCH --output=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/atlasnlp_content_country_v2/logs/full_%A_%a.out
+#SBATCH --error=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/atlasnlp_content_country_v2/logs/full_%A_%a.err
 
 set -euo pipefail
 
@@ -16,7 +16,7 @@ export PATH="/sw/pkgs/arc/python3.11-anaconda/2024.02-1/bin:$PATH"
 
 PIPELINE_DIR=/home/jnwatu/Worldbench/post_audit_pipeline/atlasnlp_content_country_v2
 INPUT_CSV=/home/jnwatu/Worldbench/compiled_ACL/task_matrix_construction/unified_worldbench_views/language_cleanup_v2/worldbench_base_ground_truth_second_stage_cleaned.csv
-SCRATCH_BASE=/scratch/mihalcea_root/mihalcea0/jnwatu/atlasnlp_content_country_v2
+SCRATCH_BASE=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/atlasnlp_content_country_v2
 OUT_DIR="$SCRATCH_BASE/full/shard_$(printf '%02d' "$SLURM_ARRAY_TASK_ID")"
 
 mkdir -p "$OUT_DIR"

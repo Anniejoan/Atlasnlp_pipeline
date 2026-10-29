@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 INPUT_FILE = Path("country_second_pass_manifest.csv")
-OUTDIR = Path("/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_country_second_pass/manifests")
+OUTDIR = Path("/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_country_second_pass/manifests")
 N_SHARDS = 7
 
 OUTDIR.mkdir(parents=True, exist_ok=True)

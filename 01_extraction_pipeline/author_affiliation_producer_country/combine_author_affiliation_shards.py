@@ -3,7 +3,7 @@
 combine_author_affiliation_shards.py
 
 
-python combine_author_affiliation_shards.py --input-dir /scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --output author_affiliation_all_regex.csv
+python combine_author_affiliation_shards.py --input-dir /scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --output author_affiliation_all_regex.csv
 Combine shard CSV outputs into one file.
 """
 

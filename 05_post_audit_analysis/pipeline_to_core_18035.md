@@ -52,7 +52,7 @@ Dataset Expansion."
 manifest into `manifest_000.jsonl`, `manifest_001.jsonl`, ... for parallel processing.
 
 ### Step 2 — Parallel extraction via SLURM job array
-`pipeline/run_shard.sh` (`sbatch`, `--array=1-20`, account `mihalcea98`, 16h walltime,
+`pipeline/run_shard.sh` (`sbatch`, `--array=1-20`, account `<PI_ACCOUNT>`, 16h walltime,
 16GB/4cpu per task) launches one array task per shard. Each task runs:
 
 ```

@@ -19,20 +19,20 @@
 # =============================================================================
 #SBATCH --job-name=dataset_extract
 #SBATCH --partition=standard
-#SBATCH --account=mihalcea98
+#SBATCH --account=<PI_ACCOUNT>
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 #SBATCH --time=16:00:00
 #SBATCH --array=1-20
-#SBATCH --output=/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/logs/%A_%a.out
-#SBATCH --error=/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/logs/%A_%a.err
+#SBATCH --output=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/logs/%A_%a.out
+#SBATCH --error=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/logs/%A_%a.err
 
 module load python
 
 source ~/Worldbench/extractor_env/bin/activate
 
-MANIFEST=/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/manifests/manifest_$(printf "%03d" ${SLURM_ARRAY_TASK_ID}).jsonl
-OUTDIR=/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/runs/shard_$(printf "%03d" ${SLURM_ARRAY_TASK_ID})
+MANIFEST=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/manifests/manifest_$(printf "%03d" ${SLURM_ARRAY_TASK_ID}).jsonl
+OUTDIR=/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/runs/shard_$(printf "%03d" ${SLURM_ARRAY_TASK_ID})
 
 mkdir -p $OUTDIR
 

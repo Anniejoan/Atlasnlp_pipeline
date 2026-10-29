@@ -16,7 +16,7 @@
 # =============================================================================
 from pathlib import Path
 
-base = Path(f"/scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/runs")
+base = Path(f"/scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/runs")
 outbase = "/home/jnwatu/Worldbench/compiled_ACL"
 shards = sorted(base.glob("shard_*"))
 

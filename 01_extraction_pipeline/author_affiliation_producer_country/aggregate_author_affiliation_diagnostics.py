@@ -20,7 +20,7 @@ Usage:
       --output-txt /path/to/author_affiliation_outputs/aggregate_summary.txt
 
 With fallback candidate export:
-    python aggregate_author_affiliation_diagnostics.py --diagnostics-dir /scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --csv-dir /scratch/mihalcea_root/mihalcea0/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --output-json aggregate_diagnostics.json --output-txt aggregate_summary.txt --fallback-csv author_affiliation_llm_fallback_candidates.csv
+    python aggregate_author_affiliation_diagnostics.py --diagnostics-dir /scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --csv-dir /scratch/<PI_ACCOUNT_ROOT>/<PI_ACCOUNT>/jnwatu/worldbench_dataset_pipeline/author_affiliation_outputs --output-json aggregate_diagnostics.json --output-txt aggregate_summary.txt --fallback-csv author_affiliation_llm_fallback_candidates.csv
 """
 
 from __future__ import annotations
